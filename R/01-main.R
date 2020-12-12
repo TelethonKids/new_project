@@ -8,7 +8,7 @@
 
 #### ProjectTemplate initiation ----
 
-ProjectTemplate::load.project(munging = FALSE, cache_loading = TRUE, data_loading = FALSE)
+ProjectTemplate::load.project(munging = TRUE, cache_loading = FALSE, data_loading = FALSE)
 
 #### helper functions ----
 
