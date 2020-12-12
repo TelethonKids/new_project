@@ -1,4 +1,0 @@
-admin
-================
-
-Project meta-data.
