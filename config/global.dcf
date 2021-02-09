@@ -10,7 +10,7 @@ logging_level: INFO
 load_libraries: TRUE
 libraries: stats, reshape2, plyr, dplyr, ggplot2, tibble, readr, tidyr, purrr,
     forcats, stringr, lubridate, readxl, ProjectTemplate, repmis, janitor,
-    broom, jtools
+    broom, jtools, labelled
 as_factors: FALSE
 attach_internal_libraries: FALSE
 cache_loaded_data: FALSE
