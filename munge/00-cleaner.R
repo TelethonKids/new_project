@@ -16,7 +16,7 @@ source("R/99-helper.R")
 
 #### load data ----
 
-dat_raw <- read_xlsx("data/file.xlsx", sheet = "Sheet1", range = "A1:B2", col_types = c("text"))
+dat_raw <- read_xlsx("data-raw/file.xlsx", sheet = "Sheet1", range = "A1:B2", col_types = c("text"))
 # dat_raw <- read_csv(file = "data-raw/file.csv", col_types = cols(.default = "c"))
 
 #### Data cleaning ----
