@@ -1,14 +1,14 @@
 #' R/01-main.R
 #' 
 #' This is the starting point for the project. load.project will load the
-#' data and run any scripts in the munge directory.
+#' data from the cache directory.
 #' 
-#' Updated 20-May-2020 by Paul Stevenson
+#' Updated 10-June-2021 by Paul Stevenson
 #' 
 
 #### ProjectTemplate initiation ----
 
-ProjectTemplate::load.project(munging = TRUE, cache_loading = FALSE, data_loading = FALSE)
+ProjectTemplate::load.project(munging = FALSE, cache_loading = TRUE, data_loading = FALSE)
 
 #### helper functions ----
 
