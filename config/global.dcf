@@ -1,4 +1,4 @@
-version: 0.9.2
+version: 0.10.1
 data_loading: FALSE
 data_loading_header: TRUE
 data_ignore:
@@ -8,12 +8,13 @@ munging: FALSE
 logging: FALSE
 logging_level: INFO
 load_libraries: TRUE
-libraries: stats, reshape2, plyr, dplyr, ggplot2, tibble, readr, tidyr, purrr,
-    forcats, stringr, lubridate, readxl, ProjectTemplate, repmis, janitor,
-    broom, jtools, labelled
+libraries: stats, reshape2, plyr, tidyverse, lubridate, readxl,
+       ProjectTemplate, repmis, janitor, broom, jtools, labelled,
+       biometrics
 as_factors: FALSE
 attach_internal_libraries: FALSE
 cache_loaded_data: FALSE
 sticky_variables: NONE
 tables_type: tibble
 underscore_variables: TRUE
+cache_file_format: RData
